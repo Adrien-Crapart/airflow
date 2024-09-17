@@ -1,0 +1,26 @@
+# Config files
+.env
+.ssh
+.ruff_cache
+.venv
+.vscode
+.pytest_cache
+
+# Extension files
+*.xlsx
+*.csv
+*.ipynb
+*__pycache__
+
+# Folder names
+env
+tests
+logs
+gpu_update/gpu_source
+config
+_docs
+_build
+
+# Files
+docker-compose-dev.yml
+!fast_canal_update.ipynb
